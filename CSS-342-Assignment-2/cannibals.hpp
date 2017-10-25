@@ -33,7 +33,7 @@ public:
      */
     int solve(int cleft, int eleft, int eright, int cright, int boatps);
 
-    //add attempt to list in order to keep track
+    //add attempt to list in order to keep track moves
     vector<string> attempted(int cleft, int eleft, int eright, int cright, int boatps);
     
     //display
@@ -41,9 +41,10 @@ public:
     void displayAttempt(); //testing purpose
     
 private:
-    //vector of string to hold the output
+    //vector of string to hold the outputs
     vector<string> output;
     //vector of string to hold different attempts
     vector<string> attempt;
+    //vector of int to hold executed moves
     vector<int> executed;
 };
