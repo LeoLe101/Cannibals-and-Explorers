@@ -7,9 +7,24 @@
 //
 
 #include <iostream>
+#include <string>
+#include "cannibals.hpp"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    int cl = 3;
+    int el = 3;
+    int er = 0;
+    int cr = 0;
+    int b = 0; //1 - right and 0 - left
+
+    cout << "Sequence of Moves:" << endl;
+    cannibals c;
+    c.solve(cl, el, er, cr, b);
+    c.display();
+    c.displayAttempt();
     return 0;
 }
+
+
