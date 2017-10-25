@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7615E18C1F9D0796007E8F44 /* cannibals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7615E18A1F9D0796007E8F44 /* cannibals.cpp */; };
 		764E67011F9961470049F7FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 764E67001F9961470049F7FC /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7615E18A1F9D0796007E8F44 /* cannibals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cannibals.cpp; sourceTree = "<group>"; };
+		7615E18B1F9D0796007E8F44 /* cannibals.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cannibals.hpp; sourceTree = "<group>"; };
 		764E66FD1F9961470049F7FC /* CSS-342-Assignment-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSS-342-Assignment-2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764E67001F9961470049F7FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				764E67001F9961470049F7FC /* main.cpp */,
+				7615E18A1F9D0796007E8F44 /* cannibals.cpp */,
+				7615E18B1F9D0796007E8F44 /* cannibals.hpp */,
 			);
 			path = "CSS-342-Assignment-2";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				764E67011F9961470049F7FC /* main.cpp in Sources */,
+				7615E18C1F9D0796007E8F44 /* cannibals.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				764E67061F9961470049F7FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
